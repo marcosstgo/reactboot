@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-       <Card style={{color:"#000", marginBottom:"#000"}}>
+       <Card className="mb-3" style={{color:"#000", marginBottom:"#000"}}>
           <Card.Img src={"https://picsum.photos/200/100"} />
           <Card.Body>
             <Card.Title>
