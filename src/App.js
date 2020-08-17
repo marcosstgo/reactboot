@@ -10,7 +10,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-       <form>
+       <Form>
+
            <Form.Row>
                <Form.Group as={Col} controlId="formGridEmail">
                    <InputGroup className="mb-2">
@@ -33,7 +34,8 @@ function App() {
 
 
 
-           </form>
+           </Form>
+
           <Card className="mb-3" style={{color:"#000", marginBottom:"#000"}}>
           <Card.Img src={"https://picsum.photos/200/100"} />
           <Card.Body>
